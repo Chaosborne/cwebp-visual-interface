@@ -1,11 +1,11 @@
 # cwebp-visual-interface
 Convert images to webp with visual interface for cwebp image converter for Ubuntu Linux.
 
-if you don't feel like writing all the time
+if you don't feel like writing 
 ```
 for file in *.jpg; do cwebp -q 80 "$file" -o "${file%.*}.webp"; done
 ```
-using cwebp utility, here's a good visual alternative.
+every time you use cwebp utility, here's a good visual alternative.
 
 ## Before running the converter, ensure you have the following installed:
 ### 1. **Install `cwebp`**
