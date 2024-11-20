@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=WebPConverter
+Comment=WebPConverter
+Exec=python3 /home/user/converter/converter.py
+Path=/home/user/converter
+Terminal=true
+Type=Application
+Icon=utilities-terminal
+Name[en_US]=WebPConverter
