@@ -1,2 +1,44 @@
 # cwebp-visual-interface
 Visual interface for cwebp image converter for Ubuntu Linux
+
+## Before running the converter, ensure you have the following installed:
+### 1. **Install `cwebp`**
+The `cwebp` utility is used to convert images to WebP format. Install it using the following command:
+
+```
+sudo apt install webp
+```
+
+### 2. **Install `Python 3` and `Tkinter`**
+The graphical user interface (GUI) is built using Tkinter. To install Python 3 and Tkinter, run:
+```
+sudo apt install python3 python3-tk
+```
+
+## Setup
+### 1. Download the Files
+Download the ```converter.py``` and ```WebPConverter.desktop``` files and place them in the ```/home/user/converter directory```.
+
+### 2. Make the Desktop Shortcut Executable
+Terminal:
+```
+cd /home/user/converter
+```
+```
+chmod +x WebPConverter.desktop
+```
+
+## Usage
+### 1. Move the Shortcut
+Move the WebP Converter.desktop shortcut to the folder with the images you want to convert.
+
+### 2. Convert Images
+1. Navigate to the folder with the images and the shortcut (WebPConverter.desktop).
+2. Double-click the WebP Converter shortcut to open the GUI.
+3. Enter the desired quality (0-100) for the conversion and click Start Conversion.
+
+The images in the current folder will be converted to WebP format and saved in a new subfolder called compressed_images.
+
+## Notes
+The tool will only process `.jpg,` `.jpeg,` and `.png` images in the current directory.  
+The converted images will be stored in the `compressed_images` subfolder within the same directory.
