@@ -1,5 +1,11 @@
 # cwebp-visual-interface
-Visual interface for cwebp image converter for Ubuntu Linux
+Convert images to webp with visual interface for cwebp image converter for Ubuntu Linux.
+
+if you don't feel like writing all the time
+```
+for file in *.jpg; do cwebp -q 80 "$file" -o "${file%.*}.webp"; done
+```
+using cwebp utility, here's a good visual alternative.
 
 ## Before running the converter, ensure you have the following installed:
 ### 1. **Install `cwebp`**
@@ -30,11 +36,11 @@ chmod +x WebPConverter.desktop
 
 ## Usage
 ### 1. Move the Shortcut
-Move the WebP Converter.desktop shortcut to the folder with the images you want to convert.
+Move the WebPConverter.desktop shortcut to the folder with the images you want to convert.
 
 ### 2. Convert Images
 1. Navigate to the folder with the images and the shortcut (WebPConverter.desktop).
-2. Double-click the WebP Converter shortcut to open the GUI.
+2. Double-click the WebPConverter shortcut to open the GUI.
 3. Enter the desired quality (0-100) for the conversion and click Start Conversion.
 
 The images in the current folder will be converted to WebP format and saved in a new subfolder called compressed_images.
