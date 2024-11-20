@@ -5,7 +5,7 @@ If you don't feel like writing
 ```
 for file in *.jpg; do cwebp -q 80 "$file" -o "${file%.*}.webp"; done
 ```
-every time you use cwebp utility, here's a good visual alternative.
+every time you use cwebp utility, here's a visual alternative.
 
 ## Before running the converter, ensure you have the following installed:
 ### 1. **Install `cwebp`**
