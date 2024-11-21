@@ -7,6 +7,8 @@ for file in *.jpg; do cwebp -q 80 "$file" -o "${file%.*}.webp"; done
 ```
 every time you use cwebp utility, here's a visual alternative.
 
+<img src="https://github.com/Chaosborne/cwebp-visual-interface/blob/main/gitHub-readme-screenshot.png" />
+
 ## Before running the converter, ensure you have the following installed:
 ### 1. **Install `cwebp`**
 The `cwebp` utility is used to convert images to WebP format. Install it using the following command:
