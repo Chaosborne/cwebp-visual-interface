@@ -37,16 +37,8 @@ chmod +x WebPConverter.desktop
 ```
 
 ## Usage
-### 1. Move the Shortcut
-Move the WebPConverter.desktop shortcut to the folder with the images you want to convert.
-
-### 2. Convert Images
-1. Navigate to the folder with the images and the shortcut (WebPConverter.desktop).
-2. Double-click the WebPConverter shortcut to open the GUI.
-3. Enter the desired quality (0-100) for the conversion and click Start Conversion.
-
-The images in the current folder will be converted to WebP format and saved in a new subfolder called compressed_images.
-
-## Notes
-The tool will only process `.jpg,` `.jpeg,` and `.png` images in the current directory.  
-The converted images will be stored in the `compressed_images` subfolder within the same directory.
+1. Place the images you want to convert in the `/home/user/converter directory`.  
+The tool will only process `.jpg,` `.jpeg,` and `.png` images.
+2. Double-click the `WebPConverter` shortcut to open the GUI.
+3. Enter the desired quality `(0-100)` for the conversion and click `Start Conversion`.
+4. The images in the current folder will be converted to WebP format and saved in a new subdirectory called `compressed_images` within the same directory.  
