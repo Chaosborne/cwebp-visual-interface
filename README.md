@@ -25,7 +25,7 @@ sudo apt install python3 python3-tk
 
 ## Setup
 ### 1. Download the Files
-Download the ```converter.py``` and ```WebPConverter.desktop``` files and place them in the ```/home/user/converter directory```.
+Download the ```converter.py``` and ```WebPConverter.desktop``` files and place them in the ```/home/user/converter``` directory.
 
 ### 2. Make the Desktop Shortcut Executable
 Terminal:
