@@ -20,7 +20,7 @@ sudo apt install webp
 ```
 
 ### 2. **Install `Python 3` and `Tkinter`**
-The cwebp-visual-interface graphical user interface (GUI) is built using Tkinter. To install Python 3 and Tkinter, run:
+The graphical user interface (GUI) is built using Tkinter. To install Python 3 and Tkinter, run:
 ```
 sudo apt install python3 python3-tk
 ```
