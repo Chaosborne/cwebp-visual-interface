@@ -9,6 +9,8 @@ every time you use cwebp utility, here's a visual alternative:
 
 <img src="https://github.com/Chaosborne/cwebp-visual-interface/blob/main/gitHub-readme-screenshot.png" />
 
+You put images in one directory, they are automatically converted to webp and put in another directory.
+
 ## Before running the converter, ensure you have the following installed:
 ### 1. **Install `cwebp`**
 The `cwebp` utility is used to convert images to WebP format. Install it using the following command:
